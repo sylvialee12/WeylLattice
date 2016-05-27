@@ -1,0 +1,15 @@
+function h = hamiltonian( rz,ry,rx,Omega1,Omega2,Omegad,nud,phi1,ph2 )
+%HAMILTONIAN Summary of this function goes here
+%   Detailed explanation goes here
+%%%%-------------------Useful matrix----------------------%%%
+sx=[0,1;1,0];
+sy=[0,-1i;1i,0];
+sz=[1,0;0,-1];
+s0=eye(2);
+r=transpose([rx,ry,rz]);
+k1 = [1/2, sqrt(3)/2, 0]; k2 = [1/2, -sqrt(3)/2, 0]; k3 = [-1, 0, 0];
+kz = [0, 0, 1];
+
+
+end
+
